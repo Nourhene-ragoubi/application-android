@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.cliniqueinformatique.tn.MenuGarderie">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Espace Parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/ff"
+            android:paddingTop="20dp"
+            android:text="Profil"
+            android:textStyle="bold"
+            android:id="@+id/btnProfil"
+            android:layout_gravity="center_horizontal" />
+
+                <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/rr"
+            android:paddingTop="10dp"
+            android:text="Remarques"
+            android:textStyle="bold"
+            android:id="@+id/btnRemarque"
+            android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/ee"
+            android:paddingTop="20dp"
+            android:text="Contact"
+            android:textStyle="bold"
+            android:id="@+id/btnContactEnseignant"
+            android:layout_gravity="center_horizontal" />
+
+                <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+             android:layout_marginLeft="25dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/msgg"
+            android:paddingTop="20dp"
+            android:text="Messages"
+            android:id="@+id/btnMsg"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/cc"
+            android:paddingTop="20dp"
+            android:text="clubs"
+            android:textStyle="bold"
+            android:id="@+id/btnClub"
+            android:layout_gravity="center_horizontal" />
+
+                <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@drawable/eventt"
+            android:paddingTop="20dp"
+            android:text="Evénements"
+            android:textStyle="bold"
+            android:id="@+id/btnmesEvent"
+            android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@drawable/hh"
+        android:paddingTop="20dp"
+        android:text=" Reglements"
+        android:id="@+id/btnReglement"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/circle"
+                android:drawableTop="@drawable/sortie"
+                android:paddingTop="20dp"
+                android:text="Quitter"
+                android:id="@+id/btnQuitter"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

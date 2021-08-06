@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="garderie.tn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aaaa"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EspaceParent" />
+        <activity android:name=".ProfilEleve" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProfilParent" />
+        <activity android:name=".ContactEnseignant" />
+        <activity android:name=".ListClub" />
+        <activity android:name=".ListEvenement" />
+        <activity android:name=".ContactAdmin" />
+        <activity android:name=".MesAdhesion" />
+        <activity android:name=".MesEvenement" />
+        <activity android:name=".MesRemarque" />
+        <activity android:name=".Reglement" />
+        <activity android:name=".EspaceEnseignant" />
+        <activity android:name=".Accueil" />
+        <activity android:name=".RemarqueEleve" />
+        <activity android:name=".AProposGarderie" />
+        <activity android:name=".ContactParent" />
+        <activity android:name=".MesMessagesP" />
+        <activity android:name=".MesMessagesEns" />
+        <activity android:name=".Paiement" />
+        <activity android:name=".Club" />
+        <activity android:name=".Evenement" />
+        <activity android:name=".PaiementMois" />
+        <activity android:name=".PiementInscrit"></activity>
+    </application>
+
+</manifest>
